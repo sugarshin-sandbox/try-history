@@ -1,0 +1,23 @@
+{
+  "name": "try-history",
+  "description": "try-history",
+  "scripts": {
+    "start": "budo main.js:main.js --live -v -- -t babelify | opnr | garnish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugarshin-sandbox/try-history"
+  },
+  "author": "sugarshin",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "budo": "^4.2.1",
+    "garnish": "^2.3.0",
+    "opnr": "^1.0.4",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {
+    "history": "^1.8.4"
+  }
+}
